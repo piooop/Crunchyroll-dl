@@ -1,7 +1,6 @@
 IF NOT EXIST .\youtube-dl.exe (
         wget https://youtube-dl.org/downloads/latest/youtube-dl.exe
-        del .\wget.exe
-)        
+)   
 set /p PW=Crunchyroll link: 
 set /p lang=Language? Example. esES, enUS: 
 youtube-dl.exe --sub-lang %lang% --write-sub -o 2.mp4 %PW%
