@@ -7,6 +7,4 @@ Run the .bat
 
 Credits:
 
-Me
-
 https://youtube-dl.org/ for making youtube-dl
